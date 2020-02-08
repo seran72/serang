@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>project</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+  </head>
+  <body>    
+
+<!--ABOUT ME SECTION -->
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <!-- <a href="#work">My Projects</a> -->
+    <a href="project.html">My Projects</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  
+  <div id="main">
+    <button class="openbtn" onclick="openNav()">☰</button> 
+  </div>
+
+<section id="introduction" class="tm-section-pad-top">
+    <div class="container tm-container-gallery">
+        <div class="text-center col-12">
+            <h2 class="tm-section-title">About Me</h2>
+            <p class="description">
+              I'm a Computer Science student at California State University, <br>
+                Sacramento. I'm fascinated by computing and always looking for<br>
+                 ways to learn, improve and expand my technical skills. <br>
+                I'm excited by new opportunities for the technology to empower<br>
+                human collaboration and I'm particularly interested in Cyber Security,<br>
+                Information Technology and Software Engineering.
+            </p>
+        </div>   
+        <h2 class="progl">Programming Languages:</h2>
+        <p class="undprog">JAVA, C, x86 ASSEMBLY, PYTHON, HTML, CSS, XML </p>
+        <h2 class="interests">Interested CS Areas:</h2>
+        <p class="undint"> Cyber Security, Information Technology and Software Engineering.</p> 
+        
+        <h2 class="progl"> Technologies and FrameWorks:</h2>
+        <p class="undprog"> Linux, Windows, MacOS, React, VMware/VirtualBox, Eclipse, IntelliJ </p>  
+        <h2 class="progl">CTF/Hacking Tools:</h2>
+        <p class="undprog"> SET toolkit, Metasploit, Wireshark, Nmap, Hydra, John the Ripper </p>
+        <h2 class="books">Operating Systems</h2>
+        <div class="undbooks">
+          <li>Mac OS</li>
+          <li>Windows</li>
+          <li>Linux (KALI LINUX)</li>
+          <li>Chrome OS</li>
+        </div>
+        <h2 class="books">Books I'm Currently Reading:</h2>
+        <div class="undbooks">
+          <li>Introduction To Formal Languages</li> 
+          <li>Computer System Architecture</li>
+          <li>Web Penetration Testing With Kali Linux</li>
+          <li>The Linux Programming Interface</li>
+        </div>
+    </div>
+  </section>
+  <script>
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+  
+    
+    </script>
+</body>
+</html>

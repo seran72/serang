@@ -1,0 +1,297 @@
+/*
+
+The Town
+
+https://templatemo.com/tm-525-the-town
+
+*/ 
+
+html {
+  font-size: 18px;
+}
+
+body {
+  color: #8f8f8f;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+a {
+  transition: all 0.3s ease;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+.btn {
+  padding: 8px 32px;
+}
+
+.btn:hover {
+  background-color: #ced4da;
+}
+
+.tm-section-pad-top {
+  padding-top: 5px;
+}
+
+.tm-text-primary {
+  color: #3496d8;
+  font-size: 23px;
+  text-align: center;
+}
+
+
+
+.tm-font-big {
+  font-size: 1.25rem;
+}
+
+.tm-btn-primary {
+  color: white;
+  background-color: #3496d8;
+  padding: 14px 35px;
+  border-radius: 30px;
+}
+
+.tm-btn-primary:hover,
+.tm-btn-primary:focus {
+  color: white;
+  background-color: #73c1f6;
+}
+
+
+/*------------------------------------*/
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 25%;
+  width: 0;
+  position: fixed;
+  z-index: 0;
+  top: 100;
+  left: 110;
+  background-color: rgb(0, 0, 0);
+  overflow-x: hidden;
+  transition: 0.7s;
+  padding-top: 30px;
+  
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: table;
+  transition: 0.3s;
+}
+
+
+.sidebar a:hover {
+  color: #0bda04;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 1px;
+  font-size: 36px;
+  margin-left: 10px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+  color: rgb(248, 248, 248);
+  padding: 10px 15px;
+  border-radius: 1000px;
+  border-style: double;
+  border-width: 10px;
+  border-color: rgb(51, 255, 0);
+  border-top-color: #fafafa;
+  border-left-color: #0bda04;
+  border-right-color: rgb(0, 183, 255);
+  border-bottom-color: blue;
+  
+}
+
+
+.openbtn:hover {
+  background-color: rgb(243, 0, 211);
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+/*
+.dropdown-menu {
+  text-align: center;
+}
+*/
+/* Hero */
+
+
+#hero {
+  background-image: url(../img/kali.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  min-height: 355px;
+  position: relative;
+}
+
+
+.tm-hero-text-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.tm-hero-text-container-inner {
+  margin-top: -90px;
+  color: #3496d8;
+  text-align: center;
+}
+
+.tm-hero-title {
+  font-size: 3.5rem;
+  color: rgb(0, 238, 255);
+  text-align: center;
+  text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+.tm-intro-next {
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+}
+
+
+/* Introduction */
+
+.tm-section-title {
+  font-size: 2.6rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-weight: normal;
+  border-radius: 30px;
+  color: #ffffff;
+  text-decoration: double;
+  text-shadow: 3px 3px 3px rgb(0, 0, 0);
+  text-overflow: clip;
+}
+#introduction {
+  background-color: #162e3d;
+}
+.description {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #fafafa;
+}
+
+.tm-intro-text {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  color: black;
+}
+.progl {
+  color: #20b9ff;
+  text-decoration: underline;
+  font-style: oblique;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px rgb(4, 65, 233);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.undprog {
+  color: #fff025;
+  font-style: normal;
+  font-size: 20px;
+}
+.interests {
+  color: #20b9ff;
+  text-decoration: underline;
+  font-style: oblique;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px rgb(4, 65, 233);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.undint {
+  color: #fff025;
+
+  font-style: normal;
+  font-size: 20px;
+}
+.books {
+  color: #20b9ff;
+  text-decoration: underline;
+  font-style: oblique;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px rgb(4, 65, 233);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.undbooks {
+  color: #fff025;
+
+  font-style: normal;
+  font-size: 20px;
+}
+
+/* Work */
+#work {
+  background-color: #131214;
+}
+.project {
+  color: #000000;
+  text-align: center;
+  text-decoration: underline;
+  font-style: oblique;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  font-size: 36px;
+  text-shadow: 3px 3px 3px rgb(44, 248, 3);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.webdev {
+  color: #ffffff;
+  font-style: oblique;
+  font-size: 25px;
+  }
+
+  /* CONTACT */
+  
+  #contact {
+    background-color: #000000;
+
+  }
+

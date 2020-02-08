@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+  </head>
+  <body>    
+
+    
+
+    <!-- Hero section -->
+    <section id="hero" class="text-white tm-font-big tm-parallax">
+      <!-- Navigation -->
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <!-- <a href="#work">My Projects</a> -->
+        <a href="project.html">My Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰</button> 
+      </div>
+      
+      <div class="text-center tm-hero-text-container">
+        <div class="tm-hero-text-container-inner">
+            <h2 class="tm-hero-title">SERAN GEMECHU</h2>
+            <p class="tm-hero-subtitle">
+               
+            </p>
+        </div>        
+      <!-- </div>
+      <div class="tm-intro-next">
+        <a href="#introduction" class="text-center tm-down-arrow-link">
+          <i class="fas fa-3x fa-caret-down tm-down-arrow"></i>
+        </a>
+      </div>       -->
+    </section>
+
+
+    <!-- JAVASCRIPT--> 
+<script>
+  function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+
+  
+  </script>
+  </body>
+</html>
