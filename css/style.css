@@ -289,9 +289,10 @@ body {
   }
 
   /* CONTACT */
-  
   #contact {
-    background-color: #000000;
-
-  }
-
+  background-image: url(../img/des.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  min-height: 355px;
+  position: relative;
+}
