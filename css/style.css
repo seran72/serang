@@ -340,8 +340,11 @@ body {
 /* I LOVE TO CREATE */
 
 
-
-* { 
-  color:rgb(240, 0, 0); 
+.typewrite { 
+  color:rgb(255, 0, 0); 
+  
+}
+.pro { 
+  color:rgb(231, 231, 231); 
   
 }
