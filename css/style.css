@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-image: url('../img/bg.jpg');
+/*   background-image: url('../img/bg.jpg'); */
   background-size: cover;
 }
 
@@ -141,7 +141,7 @@ body {
 
 
 #hero {
-  /* background-image: url(../img/bg.jpg); */
+  background-image: url(../img/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 120vh;
@@ -342,9 +342,9 @@ body {
 
 .typewrite { 
   color:rgb(255, 0, 0); 
-  
+  text-decoration: none;
 }
 .pro { 
-  color:rgb(231, 231, 231); 
+  color:white; 
   
 }
