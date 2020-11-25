@@ -61,26 +61,6 @@
     document.getElementById("mySidebar").style.width = "0";
     document.getElementById("main").style.marginLeft= "0";
   } 
-  
-  today = new Date();
-
-  BigDay = new Date("December 25, 2020");
-
-  msPerDay = 24 * 60 * 60 * 1000 ;
-
-  timeLeft = (BigDay.getTime() - today.getTime());
-
-  e_daysLeft = timeLeft / msPerDay;
-
-  daysLeft = Math.floor(e_daysLeft);
-
-  e_hrsLeft = (e_daysLeft - daysLeft)*24;
-
-  hrsLeft = Math.floor(e_hrsLeft);
-
-  minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60);
-
-  document.write("Thereonly<BR> <H4>" + daysLeft + " days " + hrsLeft +" hours and " + minsLeft + " minutes left </H4> Until December 25th 2020<P>");
 
   var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
