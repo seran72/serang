@@ -293,7 +293,7 @@ body {
 /* COOL EFFECTS HERE */
 
 
-/* Global 
+/* Global */
 
 
 .line-1{
@@ -314,7 +314,7 @@ body {
   white-space: nowrap;
   overflow: hidden;
    transform: translateY(-50%);     
-} */
+} 
 /* Animation */
 .terminal{
   animation: typewriter 4s steps(34) 1s 1 normal both,
